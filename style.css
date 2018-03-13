@@ -6,3 +6,13 @@ body {
 main {
     flex: 1 0 auto;
 }
+.parallax-container {
+    height: 500px;
+}
+.LOGO {
+    margin-left: 30px;
+}
+.h-con {
+    margin-left: 15%;
+    margin-right: 15%;
+}
