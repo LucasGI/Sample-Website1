@@ -19,7 +19,6 @@ main {
     margin-right: 15%;
     height: 300px;
 }
-
 .legal {
     position: fixed;
     float: right;
@@ -40,8 +39,6 @@ main {
 .social_logo {
     height: 32px;
     width: 32px;
-}
-.par_img {
 }
 .body_container {
     background-color: white;
@@ -83,4 +80,7 @@ main {
 }
 .border-solid.bottom.small {
     border-bottom: 1px solid;
+}
+.border-dotted.full.small {
+    border: 1px dotted #9e9e9e;
 }
