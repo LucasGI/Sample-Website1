@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Sample Site</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue darken-1">
+              <a href="#" class="brand-logo LOGO">Net Security Professionals</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="Support.html">Support</a></li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <main>
+        
+    </main>
+    <div class="foot">
+        <footer class="page-footer blue darken-1">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Connect With Us!</h5>
+                  <div class="social_bar">
+                    <a href="https://facebook.com" class="facebook"><img class="social_logo" src="assets/facebook.png"></a>
+                    <a href="https://instagram.com" class="instagram"><img class="social_logo" src="assets/instagram.png"></a>
+                    <a href="https://twitter.com" class="twitter"><img class="social_logo" src="assets/twitter.png"></a>
+                    <a href="https://linkedin.com" class="linkedin>"><img class="social_logo" src="assets/linkedin.png"></a>
+                  </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Site Map</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                    <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                    <li><a class="grey-text text-lighten-3" href="pricing.html">Pricing</a></li>
+                    <li><a class="grey-text text-lighten-3" href="support.html">Support</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                    <p class="center-align">© 2018 Net Security Professionals</p>
+              </div>
+            </div>
+          </footer>
+          <div class="chip legal right-align">
+              This site uses cookies to deliver a better experience. 
+              <a href="#!">Lean More</a>
+              <i class="close material-icons">close</i>
+            </div>
+    </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="app.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.parallax').parallax();
+    $("#mailing-list").submit(function(e) {
+      e.preventDefault();
+  });
+  });
+</script>
+</html>
