@@ -9,6 +9,7 @@ main {
 }
 .parallax-container {
     height: 500px;
+    margin-bottom: 7px;
 }
 .LOGO {
     margin-left: 30px;
@@ -25,4 +26,10 @@ main {
 .social_logo {
     height: 32px;
     width: 32px;
+}
+.par_img {
+}
+.body_container {
+    background-color: white;
+    height: 500px;
 }
