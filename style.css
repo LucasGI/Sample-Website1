@@ -17,6 +17,7 @@ main {
 .h-con {
     margin-left: 15%;
     margin-right: 15%;
+    height: 300px;
 }
 
 .legal {
@@ -32,4 +33,41 @@ main {
 .body_container {
     background-color: white;
     height: 500px;
+}
+.h-con-right {
+    margin-left: 45%;
+}
+.h-con-left {
+    margin-right: 45%;
+}
+.container-large {
+    margin: 0 auto;
+    max-width: 1280px; 
+    width:95%
+}
+.h-500 .normal{
+    height: 500px;
+}
+.h-350 {
+    height: 350px;
+}
+.h-300 {
+    height: 300px;
+}
+.h-250 {
+    height: 250px;
+}
+.margin.top.small {
+    margin-top: 7px;
+}
+.margin.bottom.small {
+    margin-bottom: 7px;
+}
+.subscribe-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #9e9e9e;
+}
+.border-solid.bottom.small {
+    border-bottom: 1px solid;
 }
