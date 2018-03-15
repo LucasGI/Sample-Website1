@@ -73,6 +73,12 @@ main {
 .margin.bottom.small {
     margin-bottom: 7px;
 }
+.margin.top.medium {
+    margin-top: 15px;
+}
+.margin.top.large {
+    margin-top: 25px;
+}
 .subscribe-form {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -83,4 +89,44 @@ main {
 }
 .border-dotted.full.small {
     border: 1px dotted #9e9e9e;
+}
+.card-title {
+    color: black;
+}
+.card-pricing-img {
+    height: 75px;
+    width: 75px;
+}
+.popular {
+    color: red;
+}
+.pricing-info {
+    color: black;
+}
+ul { 
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+.grey-text.lighten1 {
+    color: #bdbdbd;
+}
+.font-size.s12 {
+    font-size: 12;
+}
+.font-size.s15 {
+    font-size: 15;
+}
+.font-size.s16 {
+    font-size: 16;
+}
+.font-size.s18 {
+    font-size: 18;
+}
+.padding.bottom.small {
+    padding-bottom: 7px;
 }
