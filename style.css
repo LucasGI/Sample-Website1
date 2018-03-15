@@ -87,9 +87,16 @@ main {
 .border-solid.bottom.small {
     border-bottom: 1px solid;
 }
+.border-solid.left.tiny {
+    border-left: 1px solid;
+}
+.border-grey.lighten1 {
+    border-color: #bdbdbd;
+}
 .border-dotted.full.small {
     border: 1px dotted #9e9e9e;
 }
+
 .card-title {
     color: black;
 }
