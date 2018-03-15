@@ -137,3 +137,10 @@ ul {
 .padding.bottom.small {
     padding-bottom: 7px;
 }
+.cc {
+    height: 40px;
+    width: 120px;
+}
+.discramer-disagree {
+    border-left: 1px solid #bdbdbd;
+}
